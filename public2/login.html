@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Chattr - The Realtime Chatting Application</title>
+</head>
+<body>
+    <div class="frame">
+        <header class="header">
+            <h1>Chattr</h1>
+        </header>
+        <main class="main-body">
+            <div class="heading">
+                <h1>Join Rooms!</h1>
+                <h2>Chat with People!</h2>
+                <!-- <h3 id="validation"></h3> -->
+            </div>
+                <form id="login-form" action="chat.html">
+                    <h3>Let's join a room!<hr></h3>
+                    <label for="name">Type your name &darr;</label>
+                    <input type="text" id="username" name="username" placeholder="Your name" required>
+                    <label for="room" id="room" name="room">Room name &darr;</label>
+                    <input type="text" id="room" name="room" placeholder="Enter a room you'd like to join" required>
+                    <button type="submit" value="Create">JOIN!</button>
+                    <h4>OR create a <a href="index.html">new room.</a></h4>
+                </form> 
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

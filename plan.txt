@@ -1,0 +1,24 @@
+backend:
+
+1 if user lands on index.html page:
+    1. take username, room name and make a room using   both.
+    2. add room name to rooms list.
+    3. add username to current active user list.
+
+2. if user lands on login/joinRoom page.
+    1. take username and room name and join the exact room with that name.
+    2. update active user list.
+    3. display room name.
+
+3. the chat area:
+    1. send message show in chat.
+    2. show user name, time etc.
+
+
+if a room with same name is available. then abort room making.
+if username is same as other user, say username already exist. change username.
+
+if a room does not exist while joining, say room does not exist.
+
+features
+1. Room does not exist.

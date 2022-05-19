@@ -1,0 +1,196 @@
+@media (max-width: 1400px) {
+
+    .frame {
+        width: 35%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 986px) {
+
+    .frame {
+        width: 45%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .frame {
+        width: 55%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 610px) {
+
+    .frame {
+        width: 65%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 510px) {
+
+    .frame {
+        width: 75%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .frame {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
+/* landscape */
+@media (max-height: 376px) and (orientation :landscape) {
+
+    body {
+        height: 800px;
+    }
+}
+
+/* fix android keyboard layout resizing*/
+@media (max-height: 572px) {
+
+    body {
+        height: 800px;
+    }
+}
+
+/* FOR CHAT PAGE */
+
+@media (max-width: 1400px) {
+
+    .chat-container {
+        max-width: 35%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+
+}
+
+@media (max-width: 1144px) {
+
+    .chat-container {
+        max-width: 45%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 1144px) {
+
+    .chat-container {
+        max-width: 40%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 970px) {
+
+    .chat-container {
+        max-width: 45%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 856px) {
+
+    .chat-container {
+        max-width: 50%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 756px) {
+
+    .chat-container {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .chat-header h1 {
+        font-size: 2rem;
+    }
+    
+    .chat-sidebar {
+        height: 1.5rem;
+    }
+    
+}
+
+@media (max-height: 376px) and (orientation :landscape) {
+
+    .chat-container {
+        max-width: 450px;
+    }
+}
+
+
+
